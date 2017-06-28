@@ -910,3 +910,11 @@ Pricing table
     color: #FFFFFF;
     background-color: #cfa500;
 }
+img{
+	width: 100%;
+}
+#special{
+	text-align: center;
+	font-family: arial;
+	padding: 10px;
+}
