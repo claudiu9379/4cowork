@@ -60,13 +60,23 @@ jQuery(document).ready(function(){
 Google Maps
 =============================================== */
 
-	function initialize() {
-	var myLatlng = new google.maps.LatLng(40.712784, -74.005941); // Change your location Latitude and Longitude 
-	var mapOptions = {
-	zoom: 15,
-	center: myLatlng
-	}
-	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+	// function initialize() {
+	// var myLatlng = new google.maps.LatLng(40.712784, -74.005941); // Change your location Latitude and Longitude 
+	// var mapOptions = {
+	// zoom: 15,
+	// center: myLatlng
+	// }
+	// var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+	<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
 
 // Disabled Map Scroll in Contact Page 
 	map.setOptions({'scrollwheel': false});
