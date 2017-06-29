@@ -58,6 +58,9 @@ jQuery(document).ready(function() {
 
     });
 
+    if (!google) {
+        return;
+    }
     var mapOptions = {
         center: new google.maps.LatLng(51.5, -0.12),
         zoom: 10,
@@ -66,11 +69,10 @@ jQuery(document).ready(function() {
     var mapElement = document.getElementById("map");
     if (mapElement) {
         var map = new google.maps.Map(mapElement, mapOptions);
-        if(!map)
-        {
-        	return;
+        if (!map) {
+            return;
         }
-        
+
         map.setOptions({
             'scrollwheel': false
         });
