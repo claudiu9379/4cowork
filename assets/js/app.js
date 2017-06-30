@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
         return;
     }
     var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
+        center: new google.maps.LatLng(46.770651, 23.585945),
         zoom: 10,
         mapTypeId: google.maps.MapTypeId.HYBRID
     }

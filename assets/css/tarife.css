@@ -1,9 +1,9 @@
 
 #PricingTab {
-    background-image: url('http://techprocircle.com/wp-content/uploads/2016/08/pricing_bg.jpg');
+    /*background-image: url('http://techprocircle.com/wp-content/uploads/2016/08/pricing_bg.jpg');*/
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 }
 #PricingTab h2{
     font-family: 'Lato', sans-serif;

@@ -910,6 +910,18 @@ Pricing table
     color: #FFFFFF;
     background-color: #cfa500;
 }
-    img{
+    /*img{
     	width: 100%;
     }
+*/
+
+.project-inner img
+{
+	padding: 2px;
+}
+
+.projects 
+{
+	margin-left: 20%;
+	text-align: center;
+}
