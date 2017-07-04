@@ -20,42 +20,42 @@
 }
 
 .tabco1 {
-  background: #fff;
+  background: rgb(75, 204, 13);
   width: 40%;
   padding: 10px !important;
 }
 th.tabco1 {
-	background: #fff;
+	background: rgb(75,204,13);
 	padding: 32px 10px !important;
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 }
 .tabco2 {
-  background: #009688;
+  background: rgb(131, 235,27);
   text-align: center;
   color: #fff;
 }
  
 th.tabco2 {
-	background: #00C853;
+	background: rgb(131, 235,27);
 	padding: 20px 5px !important;
 	font-size: 18px;
 	text-transform: uppercase;
 }
 .tabco3 {
-  background: #03A9F4;
+  background: rgb(204, 204, 204);
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 th.tabco3 {
-	background: #039BE5;
+	background: rgb(204, 204, 204);
 
 	padding: 20px 10px !important;
 	font-size: 18px;
 	text-transform: uppercase;
 }
-.tabco4 {
+/*.tabco4 {
   background: #EF5350;
   text-align: center;
   color: #fff;
@@ -77,7 +77,7 @@ th.tabco5 {
 	
 	padding: 20px 10px !important;
 	font-size: 18px;
-	text-transform: uppercase;
+	text-transform: uppercase;*/
 }
 .rightSign {
 	color: #1ab921;
