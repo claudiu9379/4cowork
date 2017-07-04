@@ -58,53 +58,53 @@ jQuery(document).ready(function() {
 
     });
 
-    if (!google) {
-        return;
-    }
-    var mapOptions = {
-        center: new google.maps.LatLng(46.770651, 23.585945),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-    var mapElement = document.getElementById("map");
-    if (mapElement) {
-        var map = new google.maps.Map(mapElement, mapOptions);
-        if (!map) {
-            return;
-        }
+    // if (!google) {
+    //     return;
+    // }
+    // var mapOptions = {
+    //     center: new google.maps.LatLng(46.770651, 23.585945),
+    //     zoom: 10,
+    //     mapTypeId: google.maps.MapTypeId.HYBRID
+    // }
+    // var mapElement = document.getElementById("map");
+    //if (mapElement) {
+        // var map = new google.maps.Map(mapElement, mapOptions);
+        // if (!map) {
+        //     return;
+        // }
 
-        map.setOptions({
-            'scrollwheel': false
-        });
+        // map.setOptions({
+        //     'scrollwheel': false
+        // });
 
-        // Black and White style for Google Map
-        var styles = [{
-            stylers: [{
-                saturation: -100
-            }]
-        }, {
-            featureType: "road",
-            elementType: "geometry",
-            stylers: [{
-                lightness: -8
-            }, {
-                visibility: "simplified"
-            }]
-        }, {
-            featureType: "road",
-            elementType: "labels",
-        }];
-        map.setOptions({
-            styles: styles
-        });
+        // // Black and White style for Google Map
+        // var styles = [{
+        //     stylers: [{
+        //         saturation: -100
+        //     }]
+        // }, {
+        //     featureType: "road",
+        //     elementType: "geometry",
+        //     stylers: [{
+        //         lightness: -8
+        //     }, {
+        //         visibility: "simplified"
+        //     }]
+        // }, {
+        //     featureType: "road",
+        //     elementType: "labels",
+        // }];
+        // map.setOptions({
+        //     styles: styles
+        // });
 
         // Google Map Maker 
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-        });
-    }
+        // var marker = new google.maps.Marker({
+        //     position: myLatlng,
+        //     map: map,
+        // });
+    //}
 
-    google.maps.event.addDomListener(window, 'load', initialize);
+    //google.maps.event.addDomListener(window, 'load', initialize);
 
 });

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>4cowork - Your working place</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <!-- Css Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Css Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Css Theme -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset;=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/fonts/montserrat/style.css">
+</head>
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+<body>
+    <!-- Header (navigation menu, and logo) -->
+    <nav class="navbar navbar-default header-navbar" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <!-- Logo Image -->
+                            <img src="assets/img/logo-header.png" alt="Specifie an alternate text for an image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Despre noi</a></li>
+                            <li class="active"><a href="spatiu.html">Spatiu</a></li>
+                            <!-- Dropdown -->
+                            <li><a href="services.html">Tarife</a></li>
+                            <!-- Dropdown -->
+                            <!-- <li class="dropdown">
+                                    <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="blog-inner.html">Single Blog</a></li>
+                                        <li><a href="blog.html">Gallery Blog</a></li>
+                                    </ul>
+                                </li> -->
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </nav>
+    <!-- End Header -->
+    <!-- Section General Title -->
+    <div class="general-title bg-color">
+        <h2>Locatie</h2>
+        <div class="title-devider"></div>
+    </div>
+
+
+
+
+    <!-- Site Wrapper -->
+    <div class="site-wrapper">
+        <!-- About Us -->
+        <div class="container">
+            <!-- Our Studio (your studio information and images for slider) -->
+            <div class="row padding-bottom">
+                <div class="col-md-10 col-md-offset-1">
+
+                   
+
+                    <!-- Description -->
+                    <!-- modificat col-md-auto +text align -->
+                    <div class="col-md-auto padkova text-align=center">
+                        <p>O cladire cu o arhitectura deosebita, amplasata pe strada Paul Chinezu nr. 4, in centru istoric al Clujului. Zona linistita, dar foarte aproape de toate facilitatile unei zone ultra centrale: primarie, banci, Cladirea CENTRAL, office buildings, dar si relaxare , cafenele, cluburi si zona pietonala Muzeu. Accesul se poate face cu mijloacele de transport in comun sau cu auto propriu (cladirea are acces auto situanduse la limita zonei pietonale), sau de ce nu cu bibicleta, role, trotineta si long board.
+                        </p>
+                    </div>
+                    <!-- Description -->
+                    <div class="col-md-6">
+                        <!-- <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p> 
+                            <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>    
+                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. </p> -->
+                    </div>
+                </div>
+                <!-- <div class="general-title bg-color">
+                    <h2>Harta</h2>
+                    <div class="title-devider"></div>
+                </div> -->
+                <div class="col-md-10 col-md-offset-1">
+                <h3>Harta locatiei</h3>
+
+    <div id="map"></div>
+</div>
+
+                <!-- Slider for images from your studio -->
+                <div class="col-md-10 col-md-offset-1 padding-top">
+                    <h3>Poze exterior</h3>
+
+                    <div id="studio-carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators about-indicators">
+                            <li data-target="#studio-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#studio-carousel" data-slide-to="1"></li>
+                            <li data-target="#studio-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <!-- Image -->
+                            <div class="item active">
+                                <img src="assets/img/4co/4co Work 1024-16.jpg" alt="">
+                            </div>
+                            <!-- Image -->
+                            <div class="item">
+                                <img src="assets/img/4co/4co Work 1024-27.jpg" alt="">
+                            </div>
+                            <!-- Image -->
+                            <div class="item">
+                                <img src="assets/img/4co/4co Work 1024-21.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+        <!-- End About Us -->
+    </div>
+    <!-- /site-wrapper -->
+    <!-- End Site Wrapper -->
+    <!-- Footer -->
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Copyright -->
+                <!--  <div class="col-md-4 text-center">
+                        <p>Copyright 2014 © Wrapbootstrap.com</p>
+                    </div> -->
+                <!-- Footer Social Icons -->
+                <!--  <div class="col-md-4 text-center">
+                        <a href="#">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-pinterest-square fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-dribbble fa-lg"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-behance fa-lg"></i>
+                        </a>
+                    </div>  -->
+                <!-- Up Button -->
+                <div class="col-md-4 back-to-top">
+                    <a href="#">
+                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- End Footer -->
+    <!-- Js Global Compulsory  -->
+    <script src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Js Implementing Plugins  -->
+    <script src="assets/plugins/moderniz.js"></script>
+    <!-- Js Page  -->
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 847797938;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "Wy0NCMj-pXIQsr2hlAM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 46.770651, lng: 23.585945};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeiGy_96oUXAg-Qvk0JWVb8jM6fIQJ5Hs&callback=initMap">
+    </script>
+
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/847797938/?label=Wy0NCMj-pXIQsr2hlAM&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+</body>
+
+</html>

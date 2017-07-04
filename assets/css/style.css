@@ -57,7 +57,7 @@ Table of Contents:
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 26px;
 }
 .carousel-caption h1{
 	font-family: 'Montserrat', sans-serif;
@@ -328,13 +328,13 @@ a:focus {
   z-index: 1;
 }
 .header-carousel .item{
-  height: 600px;
+  height: 300px;
 }
 .header-carousel img{
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 600px;
+  max-height: 300px!important;
 }
 /* carrousel fade effect */
 .carousel-fade .carousel-inner .item{
@@ -343,6 +343,7 @@ a:focus {
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
+  margin-bottom: 20px;
 }
 .carousel-fade .carousel-inner .active{
   opacity: 1;
@@ -924,4 +925,9 @@ Pricing table
 {
 	margin-left: 20%;
 	text-align: center;
+}
+
+.padkova
+{
+	font-family: 'Podkova';font-size: 22px;
 }
