@@ -27,6 +27,12 @@
         <!-- Google Map -->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     </head>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
     <body>
 
         <!-- Header (navigation menu, and logo) -->
@@ -93,7 +99,8 @@
                     <!-- <div class="col-md-8 col-md-offset-2">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     </div>  -->
-                    <!-- Adress -->                       
+                    <!-- Adress --> 
+                     <div id="map"></div>                      
                     <div class="col-sm-6 col-md-6">
                         <h3>Address</h3> 
                         <address>                            
@@ -234,6 +241,28 @@
     </script>
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
     </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/847797938/?label=Wy0NCMj-pXIQsr2hlAM&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <script>
+      function initMap() {
+        var uluru = {lat: 46.770651, lng: 23.585945};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeiGy_96oUXAg-Qvk0JWVb8jM6fIQJ5Hs&callback=initMap">
+    </script>
+
     <noscript>
         <div style="display:inline;">
             <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/847797938/?label=Wy0NCMj-pXIQsr2hlAM&amp;guid=ON&amp;script=0" />
