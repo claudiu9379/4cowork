@@ -16,7 +16,7 @@
 #PricingTab table{
 	max-width:800px;
 	margin: 0 auto;
-	box-shadow: 1px 1px 149px 0px rgb(24, 25, 25);
+	/*box-shadow: 1px 1px 149px 0px rgb(24, 25, 25);*/
 }
 
 .tabco1 {
@@ -101,4 +101,9 @@ th.tabco5 {
     border-right: 75px solid #FEF200;
     height: 5px;
     width: 0px;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: gray!important;
 }

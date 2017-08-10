@@ -29,6 +29,33 @@ Table of Contents:
 /* ----------------------------------------------------
 	1) BOOTSTRAP OVERRIDE
 ------------------------------------------------------- */
+
+#footer .fa
+{
+	font-size: 3em!important;
+	/*color: #6E83B6;*/
+}
+
+#footer .fa-facebook:hover
+{
+	color: #6E83B6;
+}
+
+#footer .fa-instagram:hover
+{
+	color: #cd486b;
+}
+
+.f16
+{
+	font-size: 16px!important;
+}
+
+.mainImage
+{
+	width: 100%;
+	padding-bottom: 20px;
+}
 .forcarousel
 {
 	/*width: 100%;*/
@@ -43,7 +70,7 @@ Table of Contents:
 	padding-top: 35px;
 }
 .navbar-brand{
-	padding: 18px;		
+	padding-top: 10px!important;		
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	color: #ff5733;
@@ -57,7 +84,7 @@ Table of Contents:
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	font-size: 26px;
+	font-size: 20px;
 }
 .carousel-caption h1{
 	font-family: 'Montserrat', sans-serif;
@@ -312,7 +339,7 @@ a:focus {
 	background-color: #282828;
 	border-color: transparent;
 	border-radius: 0;
-	min-height: 100px;
+	min-height: 145px;
 	margin-bottom: 0;
 	border: none;
 }
@@ -929,5 +956,6 @@ Pricing table
 
 .padkova
 {
-	font-family: 'Podkova';font-size: 22px;
+	font-size: 18px;
+	/*font-family: 'Podkova';*/
 }
